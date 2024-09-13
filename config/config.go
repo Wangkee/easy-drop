@@ -9,6 +9,7 @@ type Configuration struct {
 	Host        string      `mapstructure:"host"`
 	Port        int         `mapstructure:"port"`
 	MySQLConfig MySQLConfig `mapstructure:"mysql"`
+	RedisConfig RedisConfig `mapstructure:"redis"`
 }
 
 type MySQLConfig struct {
